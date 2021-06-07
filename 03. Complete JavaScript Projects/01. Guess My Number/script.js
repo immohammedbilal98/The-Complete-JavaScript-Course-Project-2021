@@ -76,6 +76,7 @@ document.querySelector('.again').addEventListener('click', function () {
   //document.querySelector('.message').textContent = 'Start guessing...';
 
   document.querySelector('.score').textContent = score;
+  document.querySelector('.highscore').textContent = 0;
 
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';

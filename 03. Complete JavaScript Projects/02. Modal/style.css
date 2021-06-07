@@ -91,3 +91,16 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(182, 180, 180);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-bottom: 6px;
+  padding-top: 9px;
+  font-size: small;
+}
